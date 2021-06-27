@@ -37,7 +37,5 @@ class CustomDataset(Dataset):
 
         return x, y
 
-cus_data = cus_data
-
-cus_dataloader = DataLoader(cus_data, batch_size=16, shuffle=True)
+cus_dataloader = DataLoader(cus_dataset, batch_size=16, shuffle=True) #cus_data : tr_dataset, val_dataset, test_dataset
 

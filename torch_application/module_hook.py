@@ -59,7 +59,7 @@ from torchvision.models import resnet50
 method to call all layers about model
 '''
 
-from network import resnet18
+from base_resnet import resnet18
 
 model = resnet18()
 
